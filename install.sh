@@ -75,7 +75,7 @@ fi
 
 
 
-link=$(sudo curl -Ls "https://api.github.com/repos/Quick-Server/Super-SSH-User-Manager/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
+link=$(sudo curl -Ls "https://api.github.com/repos/mohammadian7/SSH/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
 sudo wget -O /var/www/html/update.zip $link
 sudo unzip -o /var/www/html/update.zip -d /var/www/html/ &
 wait
