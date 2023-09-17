@@ -40,7 +40,7 @@ _یک اسکریپت حرفه ای برای مدیریت SSH Tunnel  که با �
 ### Usages:
 📌 Install & Update:
 ```
-bash <(curl -Ls https://github.com/Quick-Server/Super-SSH-User-Manager/raw/main/install.sh --ipv4)
+bash <(curl -Ls https://github.com/mohammadian7/SSH/raw/main/install.sh --ipv4)
 ```
 <b>Note:</b> Please do not use root username during installation.
 <br>
