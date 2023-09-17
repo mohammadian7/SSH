@@ -288,7 +288,8 @@ wait
 sudo timedatectl set-timezone Asia/Tehran
 chmod 0644 /var/log/auth.log
 clear
-printf "%s" "$(</var/www/html/start.txt)"
+printf "\nCopyright : \e[31mMohamdiaan\e[0m \n"
+
 printf "\n \n"
 printf "\nPanel Link : http://${ipv4}/p/index.php"
 printf "\nUserName : \e[31m${adminusername}\e[0m "
